@@ -1,102 +1,208 @@
 <!doctype html>
+<html lang="en">
 
-<html>
-  <head>
-    <title>UIUX PROJECT 1 : 257 Dryer</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <body>
-    <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#Preparation">Preparation</a>
-      <a href="#Observation">Observation</a>
-      <a href="#Persona ">Persona</a>
-      <a href="#Storyboard ">Storyboard</a>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- User defined styles -->
+  <link rel="stylesheet" href="index.css">
+
+  <title>Personas and Storyboarding</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Personas and Storyboarding</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#overview">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#observations">Observations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#responses">Question Responses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#personas">Personas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#storyboard">Storyboard</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5" id="page-wrapper">
+    <h1 class="text-center" id="overview">257 Dryer Struggles</h1>
+    <div class="row mt-5">
+      <div class="col-sm-12 col-md-6">
+        <h4 class="text-center text-dark">Questions</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Do you use the 257 dryers often?</li>
+          <li class="list-group-item">Are there any buttons/categories that you don’t really know what it means?</li>
+          <li class="list-group-item">When you first used the dryer were you able to get hold of it easily?
+            <br>
+            Give me a number from 1-5, 1 being super easy and 5 being clueless.
+          </li>
+          <li class="list-group-item">What are some of the improvements you can make to the dryer?</li>
+          <li class="list-group-item">What do you think the lock icon is doing?</li>
+          <li class="list-group-item">Overall, do you think 257 dryers are designed well?</li>
+          <li class="list-group-item">Are you satisfied with the product of this interface?</li>
+          <li class="list-group-item"> Do you think a 10 year old can use this interface? How about a 70 year old?</li>
+
+        </ul>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div class="container">
+          <img src="./bettersketch.png" alt="Sketch of a vending machine" class="img-fluid" id="machine-sketch">
+          <p>
+          From what you see from the sketch, you would expect that you will be able to make all these controls separately but a
+          lot of the times when you select a certain option, the other options get locked. Also some wordings such as “casual”, 
+          “bulky”, and “options”  are not intuitive and it is hard to figure out what exactly the lock icon is doing. </p>
+
+        </div>
+      </div>
     </div>
 
-    <!-- TODO: put your HTML code here! -->
-    <h1> 257 Dryer Struggles! </h1>
-    <h2> Part 1 : Preparation</h2> 
-    <p> <h3>My Interface : 257 Dryer</h3> </p> 
-    <p> <h3>Questions :</h3> 
-      <ol>
-        <li> Do you use the 257 dryers often? </li>
-        <li> Are there any buttons/categories that you don’t really know what it means? </li>
-        <li> When you first used the dryer were you able to get hold of it easily? <br>
-         Give me a number from 1-5, 1 being super easy and 5 being clueless. </li>
-        <li> What are some of the improvements you can make to the dryer?</li>
-        <li> What do you think the lock icon is doing?</li>
-        <li> Overall, do you think 257 dryers are designed well?</li>
-        <li> Are you satisfied with the product of this interface?</li>
-        <li> Do you think a 10 year old can use this interface? How about a 70 year old?</li>
-      </ol>
-       </p> 
-      <p><h3>Sketch :</h3> 
-      From what you see from the sketch, you would expect that you will be able to make all these controls separately but a <br>
-      lot of the times when you select a certain option, the other options get locked. Also some wordings such as “casual”, <br>
-      “bulky”, and “options”  are not intuitive and it is hard to figure out what exactly the lock icon is doing. </p>
-      <img src="bettersketch.png" alt="Sketch" style = "width:700px ; height:420px">
-      <h2> Part 2 : Observation </h2> 
-      <p><h3>Key Observations:</h3> 
-        <ol>
-          <li> They normally don’t know what “bulky” or “casual” are supposed to mean. Many of them associate “casual” to normal <br>
-            clothes and get confused on how that is different from the normal mode. </li>
-          <li> People often get confused which button to choose to control the chime and wrinkle release options. Do you click <br> 
-            “option” or “select”?  </li>
-          <li> They also get confused by the lock icon. What is it supposed to lock? Which button do you have to press to lock? <br> 
-            Does it lock you options or does it lock the dryer itself (to prevent kids from opening it)? </li> 
-          <li> Some of them will not know which settings to put for certain clothes. (ex: What should the temperature be if I want <br> 
-            to dry my sweater?) → resort to trial and error </li> 
-          <li> People often can’t use this dryer at its full potential (ex: they will assume that they can’t put beddings like pillows <br>
-            in the dryer, when they actually can with right settings) </li> 
+    <h3 class="text-center mt-5" id="observations">Observations</h3>
+    <div class="row mt-3">
+      <div class="col-sm-12 mt-4">
+        <ol class="list-group">
+          <li class="list-group-item">
+            They normally don’t know what “bulky” or “casual” are supposed to mean. Many of them associate “casual” to normal clothes and get confused on how that is different from the normal mode. 
+          </li>
+          <li class="list-group-item">
+            People often get confused which button to choose to control the chime and wrinkle release options. Do you click “option” or “select”?
+          </li>
+          <li class="list-group-item">
+            They also get confused by the lock icon. What is it supposed to lock? Which button do you have to press to lock? Does it lock you options or does it lock the dryer itself (to prevent kids from opening it)?
+          </li>
+          <li class="list-group-item">
+            Some of them will not know which settings to put for certain clothes. (ex: What should the temperature be if I want to dry my sweater?) → resort to trial and error
+          </li>
+          <li class="list-group-item">
+            People often can’t use this dryer at its full potential (ex: they will assume that they can’t put beddings like pillows in the dryer, when they actually can with right settings)
+          </li>
         </ol>
+      </div>
+    </div>
 
-      <p><h3> Interview Responses </h3>
-      </p> <ol>
-        <li> Do you use the 257 dryers often? </li>
-        <li> Are there any buttons/categories that you don’t really know what it means? </li>
-        <li> When you first used the dryer were you able to get hold of it easily? <br>
-         Give me a number from 1-5, 1 being super easy and 5 being clueless. </li>
-        <li> What are some of the improvements you can make to the dryer?</li>
-        <li> What do you think the lock icon is doing?</li>
-        <li> Overall, do you think 257 dryers are designed well?</li>
-        <li> Are you satisfied with the product of this interface?</li>
-        <li> Do you think a 10 year old can use this interface? How about a 70 year old?</li>
-      </ol>
-      </p>
-      <h2> Part 3: Personas </h2>
-      <h3>Persona 1: Lazy Larry</h3> 
-      <img src="lazy larry.png" alt="lazylarry" style = "width:700px ; height:420px"> <br>
-      <strong>Description:</strong> <br>
-      Lazy Larry is a typical college student living on his own for the first time. He is used to his mom doing his laundry at home. <br>
-      He is a typical user who doesn’t know how to use the dryer and doesn’t feel motivated to look up instructions. <br>
-      <strong>Interface Problem:</strong> <br>
-      Because the basic setting options are vague and limited, he may end up wasting some of his clothes. Including more settings for delicates, <br>
-      beddings, jackets,...etc that are more straightforward and useful will prevent him from drying his clothes in a wrong setting. <br> 
-      <strong> Representation: </strong> <br>
-      Most people living in 257 are college students. Since 257 is a pretty expensive apartment, students living here most likely come from <br>
-      a privileged household where they don’t have to worry about doing these chores. They are prone to all the rookie mistakes (putting colored <br>
-       clothes and white clothes in the same cycle) but at the same time they are too lazy or unmotivated to fix those mistakes. <br>
+    <h3 class="text-center mt-5" id="responses">Responses</h3>
+    <div class="row mt-3">
+      <div class="col-sm-12 mt-4">
+        <h4 class="text-center">Question Responses</h4>
+        <ol class="list-group">
+          <li class="list-group-item"> 
+            <b>(Q) Do you use the 257 dryers often? </b><br>
+            Yes :) (the questions were asked to 257 residents only)
+          </li>
+          <li class="list-group-item">
+             <b>(Q)Are there any buttons/categories that you don’t really know what it means?</b><br>
+             “Casual” “Bulky”
+          </li>
+          <li class="list-group-item"> 
+            <b>(Q)When you first used the dryer were you able to get hold of it easily?
+           Give me a number from 1-5, 1 being super easy and 5 being clueless. </b><br>
+           Around 2 or 3
+          </li>
+          <li class="list-group-item"> 
+            <b>(Q) What are some of the improvements you can make to the dryer?</b><br>
+            I wish I could have more detailed control on the settings. (ex: time control)  / i wish some of their options were more self explanatory (ex: instead of having casual and bulky I wish they had options like “delicates” or “bedding” / I hope I can use the dryer for my knitted clothes and beddings 
+          </li>
+          <li class="list-group-item"> 
+            <b>(Q) What do you think the lock icon is doing?</b><br>
+            Lock the settings (chime and wrinkle release) / lock the dryer so that it can’t be opened
+          </li>
+          <li class="list-group-item"> 
+            <b>(Q) Overall, do you think 257 dryers are designed well?</b><br>
+            It’s not bad/ Exponentially better than Brown dryers but it can make some improvements
+          </li>
+          <li class="list-group-item"> 
+            <b>(Q) Are you satisfied with the product of this interface?</b><br>
+            Yes (ex: it messes up my clothes sometimes but it does its job)
+          </li>
+          <li class="list-group-item"> 
+            <b>(Q) Do you think a 10 year old can use this interface? How about a 70 year old?</b><br>
+            Yes, the directions are quite simple and self-explanatory./ Yes, but they might not be able to set up detailed settings. 
+          </li>  
+        </ol>
+      </div>
+    </div>
 
-      <h3>Persona 2: Sensitive Susan</h3>
-      <img src="sesitive susan.png" alt="sensitivesusan" style = "width:700px ; height:420px"> <br>
-      <strong>Description:</strong> <br>
-      Sensitive Susan enjoys shopping and cares more about her clothes/looks. She is more organized than lazy Larry and is more sensitive to <br>
-      hygiene/cleanliness. She is the type of user who will look at all the options and buttons that the dryer has. <br>
-      <strong>Interface Problem:</strong> <br>
-      She is the type who would get extremely frustrated by the trial-and-error process. She will not use the basic settings that are in vague <br> 
-      languages. She is also frustrated by how she can’t customize the settings as much as she would like. <br>
-      <strong> Representation: </strong> <br>
-      As mentioned above, 257 will typically have college students from comfortable backgrounds. Sensitive Susan will probably have a few clothes <br>
-      that are quite expensive and would want to take good care of it. Since she enjoys shopping (like a typical college student) and decorating her <br> 
-      room, she will have different types of clothes that require different dryer settings. <br>
-      <h2> Part 4: StoryBoard</h2>
-      <h3>Lazy Larry using 257 Dryer</h3>
-      <img src="storyboard (1).png" alt="larrystoryboard" style = "width:1024 ; height:768"> <br>
+    <!-- Personas section -->
+    <h3 class="text-center mt-5" id="personas">Personas</h3>
+    <div class="row mt-5">
+      <div class="col-sm-12 col-md-6">
+        <img src="./lazy larry.png" alt="Larry's persona" class="img-fluid persona-img">
+        <h5 class="text-center">Lazy Larry</h5>
+        <p>
+          Lazy Larry is a typical college student living on his own for the first time. He is used to his mom doing his laundry at home.
+          He is a typical user who doesn’t know how to use the dryer and doesn’t feel motivated to look up instructions.
+        </p>
+        <strong>Interface Problem:</strong> <br>
+        Because the basic setting options are vague and limited, he may end up wasting some of his clothes. Including more settings for delicates, <br>
+        beddings, jackets,...etc that are more straightforward and useful will prevent him from drying his clothes in a wrong setting. <br> 
+        <strong> Representation: </strong> <br>
+        Most people living in 257 are college students. Since 257 is a pretty expensive apartment, students living here most likely come from <br>
+        a privileged household where they don’t have to worry about doing these chores. They are prone to all the rookie mistakes (putting colored <br>
+        clothes and white clothes in the same cycle) but at the same time they are too lazy or unmotivated to fix those mistakes. <br>
+        <br>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <img src="./sesitive susan.png" alt="Susan's persona" class="img-fluid persona-img">
+        <h5 class="text-center">Sensitive Susan</h5>
+        <strong>Description:</strong> <br>
+        Sensitive Susan enjoys shopping and cares more about her clothes/looks. She is more organized than lazy Larry and is more sensitive to <br>
+        hygiene/cleanliness. She is the type of user who will look at all the options and buttons that the dryer has. <br>
+        <strong>Interface Problem:</strong> <br>
+        She is the type who would get extremely frustrated by the trial-and-error process. She will not use the basic settings that are in vague <br> 
+        languages. She is also frustrated by how she can’t customize the settings as much as she would like. <br>
+        <strong> Representation: </strong> <br>
+        As mentioned above, 257 will typically have college students from comfortable backgrounds. Sensitive Susan will probably have a few clothes <br>
+        that are quite expensive and would want to take good care of it. Since she enjoys shopping (like a typical college student) and decorating her <br> 
+        room, she will have different types of clothes that require different dryer settings. <br>
+        <br>
+    </div>
 
+    <!-- Storyboard section -->
+    <div class="container text-center" id="storyboard">
+      <h3 class="text-center mt-5">Storyboard</h3>
+    </div>
+    <div class="row mt-5">
+      <div class="col-sm-12">
+        <p>
+          Lazy Larry using 257 Dryer
+        </p>
+        <div class="container text-center">
+          <img src="storyboard (1).png" alt="Storyboard Picture" class="img-fluid" id="storyboard-img">
+        </div>
+      </div>
+    </div>
+  </div>
 
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
